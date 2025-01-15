@@ -3,10 +3,9 @@ id: google-sheets-download-sheet-to-csv
 title: Google Sheets Template - Download Sheet to Platform
 hide_title: true
 sidebar_label: Download Sheet to Platform
-description: Information about Platform's low-code Google Sheets Download Sheet to Platform blueprint. Quickly export your data from a Google Sheet.
+description: Information about Platform's low-code Google Sheets Download Sheet to Platform template. Quickly export your data from a Google Sheet.
 keywords:
   - google sheets
-  - blueprint
   - template
 ---
 
@@ -39,12 +38,12 @@ Content of the downloaded file can be refined by providing a cell range. Otherwi
 
 ## YAML
 
-Below is the YAML template for this Blueprint and can be used in the
-Fleet [YAML Editor](../../reference/fleets/yaml-editor.md).
+Below is the YAML template for this Template and can be used in the
+Fleet [YAML Editor](../../reference/workflows/yaml-editor.md).
 
 ```yaml
 source:
-  blueprint: Google Sheets - Download Sheet to Shipyard
+  template: Google Sheets - Download Sheet to Shipyard
   inputs:
     SHEETS_SPREADSHEET_ID: null  ## REQUIRED
     SHEETS_TAB_NAME: null

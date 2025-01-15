@@ -1,20 +1,19 @@
 ---
 id: google-sheets-authorization
 sidebar_position: 1
-title: Google Sheets Blueprint Authorization
+title: Google Sheets Template Authorization
 hide_title: true
 sidebar_label: Authorization
 description: Instructions on how to authorize Google Sheets to work with Platform's low-code Google Sheets templates.
 keywords:
   - google sheets
-  - blueprint
   - template
   - authorization
 ---
 
 #  Authorization
 
-In order to get started with the Google Sheets Blueprints, a service account with the necessary GCP permissions is required. Additionally, this Service account will need to be invited to any Google Sheet you wish to access programatically.
+In order to get started with the Google Sheets Templates, a service account with the necessary GCP permissions is required. Additionally, this Service account will need to be invited to any Google Sheet you wish to access programatically.
 
 ## Creating a Service Account for Google Sheets
 
@@ -66,7 +65,7 @@ In order to get started with the Google Sheets Blueprints, a service account wit
 ![](https://cdn.sanity.io/images/2xyydva6/production/ea6a61dd90c015952071b1f9e2f0dae0569938e7-183x130.png?w=450)
 
 15. In the popup modal select "**JSON**"  and click "**CREATE**"
-16. Copy the downloaded file JSON contents and save for safe keeping. The contents of this file can be pasted into the "**Service Account**" input for all Google Sheets Blueprints.
+16. Copy the downloaded file JSON contents and save for safe keeping. The contents of this file can be pasted into the "**Service Account**" input for all Google Sheets Templates.
 
 ## Inviting a Service Account to a Google Sheet
 
@@ -95,14 +94,14 @@ In order to get started with the Google Sheets Blueprints, a service account wit
 
 ![](https://cdn.sanity.io/images/2xyydva6/production/03140e2248d816b73e1643cf27f1352f37da5a85-405x253.png?w=450)
 
-9. Now you can start using any of our Blueprints with that sheet!
+9. Now you can start using any of our Templates with that sheet!
 
 **_INFO:_** Pro Tip
 Want to access multiple Google Sheets files with the same credentials? You can also share Google Drive folders with the Service Account Email, causing every file in that folder to be accessible.
 
 
 ## Accessing the Sheet Name or ID
-1. Navigate to the Google Sheet you want to access with a Blueprint. 
+1. Navigate to the Google Sheet you want to access with a Template. 
 2. a. Copy the Name, shown in the top-left of the screen. This name is case sensitive.  **OR**  
 b. Copy the ID, found in the URL `https://docs.google.com/spreadsheets/d/`**`sheet_id`**`/edit`
 

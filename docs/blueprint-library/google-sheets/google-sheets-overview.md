@@ -1,26 +1,25 @@
 ---
 id: google-sheets-overview
-title: Google Sheets Blueprints Overview
+title: Google Sheets Templates Overview
 hide_title: true
 sidebar_label: Overview
 description: Information about Platform's low-code Google Sheets templates.
 keywords:
 - google sheets
-- blueprint
 - template
 - overview
 ---
 
-# Google Sheets Blueprints Overview
+# Google Sheets Templates Overview
 
-Platform's low-code Google Sheets blueprints allow users to connect their data in Google Sheets to the rest of their modern data stack.
+Platform's low-code Google Sheets templates allow users to connect their data in Google Sheets to the rest of their modern data stack.
 
 
 ## How to Use
-For information on how to set up these Blueprints successfully, please read through the [Google Sheets Authorization guide](google-sheets-authorization.md).
+For information on how to set up these Templates successfully, please read through the [Google Sheets Authorization guide](google-sheets-authorization.md).
 
 
-## Available Blueprints
+## Available Templates
 Platform currently has the following Blueprints readily available:
 
 - [Clear Data from Sheet](google-sheets-clear-data-from-sheet.md)

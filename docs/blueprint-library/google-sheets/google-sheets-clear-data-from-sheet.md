@@ -3,10 +3,9 @@ id: google-sheets-clear-data-from-sheet
 title: Google Sheets Template - Clear Data from Sheet
 hide_title: true
 sidebar_label: Clear Data from Sheet
-description: Information about Platform's low-code Google Sheets Clear Data from Sheet blueprint. Easily wipe data from a Google Sheet so you can start fresh before inserting data.
+description: Information about Platform's low-code Google Sheets Clear Data from Sheet template. Easily wipe data from a Google Sheet so you can start fresh before inserting data.
 keywords:
   - google sheets
-  - blueprint
   - template
 ---
 
@@ -37,12 +36,12 @@ If you leave the tab name blank, the data will be cleared from the first tab.
 
 ## YAML
 
-Below is the YAML template for this Blueprint and can be used in the
-Fleet [YAML Editor](../../reference/fleets/yaml-editor.md).
+Below is the YAML template for this Template and can be used in the
+Fleet [YAML Editor](../../reference/workflows/yaml-editor.md).
 
 ```yaml
 source:
-  blueprint: Google Sheets - Clear Data from Sheet
+  template: Google Sheets - Clear Data from Sheet
   inputs:
     SHEETS_SPREADSHEET_ID: null  ## REQUIRED
     SHEETS_TAB_NAME: null

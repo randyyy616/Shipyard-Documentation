@@ -3,10 +3,9 @@ id: google-sheets-upload-csv-to-sheet
 title: Google Sheets Template - Upload File to Sheet from Platform
 hide_title: true
 sidebar_label: Upload File to Sheet from Platform
-description: Information about Platform's low-code Google Sheets Upload File to Sheet from Platform blueprint. Easily import your data into a Google Sheet so your teams can collaboratively edit it. Create or update worksheets at scale.
+description: Information about Platform's low-code Google Sheets Upload File to Sheet from Platform template. Easily import your data into a Google Sheet so your teams can collaboratively edit it. Create or update worksheets at scale.
 keywords:
   - google sheets
-  - blueprint
   - template
 ---
 
@@ -22,13 +21,13 @@ Only one CSV file can be uploaded at a time, since the upload process requires a
 
 If you leave the tab name blank, the data will be uploaded into the first tab. If you specify a Tab Name that doesn't exist, it will be created.
 
-This Blueprint is still subject to [Google's limitations](https://support.google.com/drive/answer/37603) which restrict the number of cells, number of columns, and number of characters per cell in a spreadsheet.
+This Template is still subject to [Google's limitations](https://support.google.com/drive/answer/37603) which restrict the number of cells, number of columns, and number of characters per cell in a spreadsheet.
 
 **Note:** This Vessel cannot be used to upload a local file from your computer.
 
 **Recommended Setup:**
 
-1. A Vessel built with this Blueprint should typically run after a Vessel that either downloads a file to Platform or generates a file with code. 
+1. A Vessel built with this Template should typically run after a Vessel that either downloads a file to Platform or generates a file with code. 
 
 ## Variables
 
@@ -47,12 +46,12 @@ This Blueprint is still subject to [Google's limitations](https://support.google
 
 ## YAML
 
-Below is the YAML template for this Blueprint and can be used in the
-Fleet [YAML Editor](../../reference/fleets/yaml-editor.md).
+Below is the YAML template for this Template and can be used in the
+Fleet [YAML Editor](../../reference/workflows/yaml-editor.md).
 
 ```yaml
 source:
-  blueprint: Google Sheets - Upload File to Sheet from Shipyard
+  template: Google Sheets - Upload File to Sheet from Shipyard
   inputs:
     SHEETS_SPREADSHEET_ID: null  ## REQUIRED
     SHEETS_TAB_NAME: null
